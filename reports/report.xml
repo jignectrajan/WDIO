@@ -1,0 +1,34 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Swag Labs Login Page Tests" timestamp="2024-11-12T18:33:49" time="16.335" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Swag Labs Login Page Tests"/>
+      <property name="capabilities" value="chrome.130_0_6723_117.windows"/>
+      <property name="file" value="file:///D:/Nehal/All_Framework_SetUp_Projects/WebdriverIO/WebDriverIO-UI/WebDriverIO-UI/test/specs/sauceLab/loginTests.e2e.js"/>
+    </properties>
+    <testcase classname="chrome.130_0_6723_117.windows.Swag_Labs_Login_Page_Tests" name="Verify that the validation message is displayed when only password is entered" time="16.331">
+      <system-out><![CDATA[
+RESULT: {}
+COMMAND: GET /session/20eb0a1ec87e980658d7218800857b6d/window - {}
+RESULT: {}
+COMMAND: GET /session/20eb0a1ec87e980658d7218800857b6d/url - {}
+RESULT: {}
+COMMAND: POST /session/20eb0a1ec87e980658d7218800857b6d/element/f.6DD474D323E389AAA7205A46E6C9D1D1.d.E15D67FCF78F4B0CB44C04610DC8EE2C.e.3/clear - {}
+RESULT: {}
+COMMAND: POST /session/20eb0a1ec87e980658d7218800857b6d/element/f.6DD474D323E389AAA7205A46E6C9D1D1.d.E15D67FCF78F4B0CB44C04610DC8EE2C.e.3/value - {"text":""}
+RESULT: {"text":""}
+COMMAND: POST /session/20eb0a1ec87e980658d7218800857b6d/element/f.6DD474D323E389AAA7205A46E6C9D1D1.d.E15D67FCF78F4B0CB44C04610DC8EE2C.e.5/clear - {}
+RESULT: {}
+COMMAND: POST /session/20eb0a1ec87e980658d7218800857b6d/element/f.6DD474D323E389AAA7205A46E6C9D1D1.d.E15D67FCF78F4B0CB44C04610DC8EE2C.e.5/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/20eb0a1ec87e980658d7218800857b6d/element/f.6DD474D323E389AAA7205A46E6C9D1D1.d.E15D67FCF78F4B0CB44C04610DC8EE2C.e.6/click - {}
+RESULT: {}
+COMMAND: GET /session/20eb0a1ec87e980658d7218800857b6d/element/f.6DD474D323E389AAA7205A46E6C9D1D1.d.E15D67FCF78F4B0CB44C04610DC8EE2C.e.9/text - {}
+RESULT: {}
+COMMAND: DELETE /session/20eb0a1ec87e980658d7218800857b6d - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites> -->

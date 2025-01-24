@@ -1,0 +1,33 @@
+{
+  "name": "webdriverio",
+  "version": "1.0.0",
+  "description": "Appium wdio pg",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./test/config/wdio.browser.conf.js",
+    "cross.browser": "cross-env ENVIRONMENT=local wdio ./test/config/wdio.browser.conf.js",
+    "allure-report": "npx allure generate \"./allure-results\" --clean && npx allure open",
+    "android.remove.allure.dir": "rmdir /s /q allure-results && rmdir /s /q allure-report"
+  },
+  "keywords": [
+    "wdio"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^8.40.6"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^9.2.2",
+    "@wdio/local-runner": "^9.2.12",
+    "@wdio/mocha-framework": "^9.2.8",
+    "@wdio/spec-reporter": "^9.2.8",
+    "@wdio/types": "^9.2.2",
+    "allure-commandline": "^2.32.0",
+    "chai": "^5.1.2",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2"
+  }
+}

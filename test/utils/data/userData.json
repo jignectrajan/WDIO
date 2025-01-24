@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "email": "rp@yopmail.com",
+      "password": "HJ4KjI9f",
+      "name": "JigNect Technologies",
+      "type": "Zalak Darji"
+    }
+  ],
+  "SauceLabUser": [
+    {
+      "username": "standard_user",
+      "password": "secret_sauce"
+    }
+  ]
+}
